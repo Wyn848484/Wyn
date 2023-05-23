@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us </h1>
+  <p>Welcome to The Mind Mechanics! We are a mental health care provider committed to helping individuals improve their mental well-being and live happier, more fulfilling lives.</p>
+  <p>With our care, we offer a range of services including therapy, counseling, and psychiatric evaluations. Our dedicated team of professionals is experienced in addressing various mental health conditions and providing evidence-based treatment approaches.<p>
+
+  <p>At The Mind Mechanics, we prioritize the well-being of our clients and aim to create a safe and compassionate environment for their healing journey. Our mission is to empower individuals to overcome their mental health challenges and build resilience.</p>
+</div>
+
+<h2 style="text-align:center">WHO WE ARE</h2>
+<p style="text-align:center">We are doctors, with different specialties ready to assist and keep our lives mentally, physically, socially, and emotionally healthy. Live without regrets! We are here to provide your mental needs as we safely secure your confidential information away from the cause of your difficulties. Don't worry as we are professionaly trained and all of us are cum laudes to assure you that our services aces the country's needs.</p>
+    
+<h2 style="text-align:center">TEAM</h2>
+<p style="text-align:center">We strive to create a safe and compassionate environment for our clients, where they feel heard, understood, and supported. Your ability to actively listen, show empathy, and provide evidence-based treatment approaches is instrumental in helping individuals navigate their mental health challenges.
+
+Remember, each interaction you have with our clients can make a profound difference in their lives. Your words of encouragement, guidance, and therapeutic interventions have the power to bring about positive change and transform their mental well-being.</p>
+
+<h2 style="text-align:center">Contact Us</h2>
+<h3 style="text-align:center">Contact No: +639265296849</h3>
+<h3 style="text-align:center">Location: Santa Clara Street, Manila, Philippines</h3>
+<h3 style="text-align:center">Email Address: themindmechanics@gmail.com</h3>
+      
+
+
+</body>
+</html>
